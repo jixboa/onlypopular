@@ -1,0 +1,50 @@
+git init
+$ git add *
+git status
+git commit -m "make it better"
+
+--heroku login--
+-- heroku git:remote -a jix-todo-app --
+git push heroku master
+------------------------------------
+HEROKU STUFF
+
+heroku logs --tail
+
+heroku maintenance:on 
+heroku maintenance:off
+
+--dynos off
+heroku ps:scale web=0 
+
+--dynos on
+heroku ps:scale web=1  
+
+
+
+-------------------------------
+git add *
+git status
+git branch -M main
+git remote add origin "https://gitLink"
+git commit -m "New Change"
+git push -u origin main
+
+---------------------------
+VALIDATE CHECK ---
+LOADER ON SUBMIT -----
+IMAGE RESIZE BEFORE UPLOAD---
+
+IMAGES MODAL
+DOWNLOAD IMAGES
+
+
+
+------------------
+firebase
+
+
+
+firebase init
+firebase Serve
+firebase deploy
